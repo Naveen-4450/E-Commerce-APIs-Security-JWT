@@ -1,0 +1,23 @@
+2024-09-10 15:39:00 ---[INFO]--- Tomcat initialized with port 8888 (http)
+2024-09-10 15:39:00 ---[INFO]--- Initializing ProtocolHandler ["http-nio-8888"]
+2024-09-10 15:39:00 ---[INFO]--- Starting service [Tomcat]
+2024-09-10 15:39:00 ---[INFO]--- Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-10 15:39:00 ---[INFO]--- Initializing Spring embedded WebApplicationContext
+2024-09-10 15:39:00 ---[INFO]--- Root WebApplicationContext: initialization completed in 3663 ms
+2024-09-10 15:39:01 ---[INFO]--- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-10 15:39:01 ---[INFO]--- HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-10 15:39:01 ---[INFO]--- HHH000026: Second-level cache disabled
+2024-09-10 15:39:01 ---[INFO]--- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-10 15:39:01 ---[INFO]--- HikariPool-1 - Starting...
+2024-09-10 15:39:02 ---[INFO]--- HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@46e558bd
+2024-09-10 15:39:02 ---[INFO]--- HikariPool-1 - Start completed.
+2024-09-10 15:39:02 ---[WARN]--- HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-10 15:39:03 ---[INFO]--- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-10 15:39:04 ---[INFO]--- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10 15:39:05 ---[WARN]--- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-10 15:39:05 ---[INFO]--- Global AuthenticationManager configured with UserDetailsService bean with name credentialService
+2024-09-10 15:39:06 ---[WARN]--- Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-09-10 15:39:06 ---[INFO]--- LiveReload server is running on port 35729
+2024-09-10 15:39:06 ---[INFO]--- Starting ProtocolHandler ["http-nio-8888"]
+2024-09-10 15:39:06 ---[INFO]--- Tomcat started on port 8888 (http) with context path '/'
+2024-09-10 15:39:06 ---[INFO]--- Started ECommerceApplication in 10.165 seconds (process running for 11.352)

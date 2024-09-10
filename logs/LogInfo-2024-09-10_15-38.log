@@ -1,0 +1,6 @@
+2024-09-10 15:38:56 ---[INFO]--- Starting ECommerceApplication using Java 22.0.1 with PID 10080 (C:\Z_Naveen\E-Com-App-API's-Security-JWT\E_ComApp_API_Security_JWT\target\classes started by Administrator in C:\Z_Naveen\E-Com-App-API's-Security-JWT\E_ComApp_API_Security_JWT)
+2024-09-10 15:38:56 ---[INFO]--- No active profile set, falling back to 1 default profile: "default"
+2024-09-10 15:38:57 ---[INFO]--- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-10 15:38:57 ---[INFO]--- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-10 15:38:59 ---[INFO]--- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-10 15:38:59 ---[INFO]--- Finished Spring Data repository scanning in 127 ms. Found 11 JPA repository interfaces.

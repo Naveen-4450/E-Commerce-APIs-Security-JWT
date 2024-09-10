@@ -1,0 +1,32 @@
+<configuration status="DEBUG">
+    <!-- Define the file appender with time-based rolling policy -->
+    <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <!-- The main log file -->
+        <file>logs/ECommerce.log</file>
+
+        <!-- Configure the rolling policy to roll over every minute -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Define the pattern for the rolled-over files -->
+            <fileNamePattern>logs/LogInfo-%d{yyyy-MM-dd_HH-mm}.log</fileNamePattern>
+            <!-- Keep 5 log files, and roll over the files after reached max -->
+            <maxHistory>5</maxHistory>
+        </rollingPolicy>
+
+        <!-- Define the encoder with a pattern for the log format -->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} ---[%level]--- %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} ---[%level]--- %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- Define the root logger -->
+    <root level="info">
+        <appender-ref ref="ROLLING"/>
+        <appender-ref ref="Console"/>
+    </root>
+</configuration>
